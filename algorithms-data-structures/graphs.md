@@ -46,3 +46,23 @@
 - Be able to discuss time/space complexity of these approaches, and what issues we may face.
   - space O(|v|) + O(|E|) number of verticies + nmber of edges 
   - time O(|E|) number of edges 
+
+------
+
+- Give a high level overview of an Adjacency Matrix
+  - square matrix used to represent a finite graph. Size V*V. Elements of the matrix indicate whether pairs of vertices are adjacent 
+
+- If we were only concerned about time complexity is an Adjacency Matrix efficient? Why/why not?
+  - efficient, 2D array operations are O(1) time 
+
+- If we were only concerned about  space complexity is an Adjacency Matrix efficient? Why/why not? 
+  - space complexity is O(V^2)
+  - big space trade off
+  - good if graph is dense or v^2 is too less to matter 
+
+- Give a high level overview of an Adjacency List? 
+  - Collection of unordered lists used to represent a finite graph. Each list describes the set of neighbors of a vertex in the graph.
+
+- What benefits do we get from an Adjacency List?
+  - space complexity O (|E| + |V|)
+

@@ -18,4 +18,6 @@
     - data sent from server to client contains info about what client can do next.
 - What is REST 
   - representational state transfer, making network communication more scalabel and flexible 
+
 - Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful
+  - making a request to a server with (URL, method, headers, body), and the server returning you info in http response (Status code, headers, body)
