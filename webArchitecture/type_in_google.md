@@ -1,3 +1,4 @@
+## What happens when you type in google.com and hit enter 
 1. type google.com into address bar 
 2. browser checks the cache for DNS record to find the corresponding IP adddress of google.com 
 3. if the requested URL is not in the cache, ISP's DNS server initiates a DNS query to find the IP address of the server that hosts google.com 
