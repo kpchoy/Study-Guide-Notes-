@@ -1,0 +1,3 @@
+- Why do we need a DNS?
+  - domain name system 
+  - maintains a directory of domain names and translates them into IP addresses 

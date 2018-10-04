@@ -19,4 +19,10 @@
 
 - single-threaded: processing 1 command at a time 
 
-- setTimeout value is minimum execution, however, because js event queue it might take longer because it needs to wait behind other items in event que 
+- setTimeout value is minimum execution, however, because js event queue it might take longer because it needs to wait behind other items in event que
+
+----
+
+- Is JS a single-threaded language?
+  - Javascript is single threaded 
+  - JS asynchronous events are possible through the event loop 
