@@ -7,8 +7,8 @@
 
 - What are the steps for BFS on a graph?
   - queue 
-  - result 
-  - starting vertex. find all the vertex connected, push each vertex onto queue and push into result 
+  - visited index 
+  - starting vertex. find all the vertex connected, push each vertex onto queue and push into visited index 
   - once no more adjacent vertex, go to next vertex on queue. pop off vertex on queue
   - keep going to went through whole queue and queue is empty
 
