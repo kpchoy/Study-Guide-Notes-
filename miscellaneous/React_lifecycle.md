@@ -28,3 +28,6 @@
  - componentDidMount 
  - compoenentWillReceiveProps 
  - componentDidUpdate 
+
+-  Give one explanation for why we have to make AJAX requests in componentDidMount
+  - cant guarantee that a ajax request will not resolve before component mounts
