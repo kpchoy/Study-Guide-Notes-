@@ -40,4 +40,43 @@ def checkMagazine(mag, note)
   end 
 end 
 
-checkMagazine(["give", "me", "one", "grand", "today", "night"], ["give", "one", "grand", "today"])
+def twoStrings(str1, str2)
+  hash_map = Hash.new(0)
+  str1.chars.each do |ch|
+    hash_map[ch] += 1 
+  end 
+
+  str2.chars.each do |ch2|
+    if hash_map.keys.include?(ch2)
+      return true 
+    end 
+  end 
+
+  false 
+end 
+
+def sherlockAndAnagrams(s)
+  counter = Hash.new(0)
+    i = 0
+    while i < s.length
+        j = i 
+        while j < s.length
+            temp = Hash.new(0)
+            p s[i..j]
+            s[i..j].chars.each do |el|
+                temp[el] += 1
+            end 
+            p temp 
+            p "----"
+            counter[temp] += 1
+            j += 1
+        end 
+        i += 1
+    end 
+    p counter 
+    ans = counter.values.map {|c| c*(c-1)/2}
+    ans.reduce(:+)
+
+end
+
+p sherlockAndAnagrams("abba")
