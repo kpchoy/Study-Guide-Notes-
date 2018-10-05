@@ -1,0 +1,5 @@
+- Explain TCP, and why it is a necessary protocol
+  - transmission control protocal. 
+  - determines how to break down data into packets that networks can deliver 
+  - makes sure that all data packets arrive at their destination 
+  - then assembles the packets and delivers assembly to receiving app 
