@@ -1,0 +1,8 @@
+- Give an example of a use-case for Topological Sort?
+  - scheduling jobs from the given dependencies among jobs 
+- What is a difference between Topological Sort and DFS?
+  - we need to print a vertex before its adjacent verticies
+- On which types of Graphs can we do a topological sort?
+  - (DAG) Directed Acylic Graph - every directed edge uv, vertex u comes before vertex v in ordering 
+- What data structure do we use to assist with the topological sort algorithm?
+  - DFS
