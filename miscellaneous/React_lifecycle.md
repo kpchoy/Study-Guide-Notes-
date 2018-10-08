@@ -25,9 +25,9 @@
   - componentDidMount
 
 - in which lifecycle methods can you call setState?
- - componentDidMount 
- - compoenentWillReceiveProps 
- - componentDidUpdate 
+  - componentDidMount 
+  - compoenentWillReceiveProps 
+  - componentDidUpdate 
 
 -  Give one explanation for why we have to make AJAX requests in componentDidMount
-  - cant guarantee that a ajax request will not resolve before component mounts
+   - cant guarantee that a ajax request will not resolve before component mounts

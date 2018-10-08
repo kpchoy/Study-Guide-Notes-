@@ -1,0 +1,10 @@
+- explain djikstra shortest-path algorithm 
+  - create a set sptSet (shortest path tree set) that keeps track of vertices included in shortest path, initially empty 
+  - assign a distance value to all vertices in the input graph. initialize all distance values as INFINITE. Assign distance value as 0 for the source vertex so taht it is picked first. 
+  - while sptSet doesnt include all vertices
+    - pick a vertex u which is not there in sptSet and has minimum distance value 
+    - include u to sptSet 
+    - update distance value of all adjacent vertices of u. Update distance values by iterating through all adjacent vertices. For every adjacent vertex v, if sum of distance value of u (from source) and weight of edge u-v, is less than the distance value of v, then update the distance value of v. 
+- what is the time complexity of Djikstra's algorithm
+  - O(E log (V))
+  - O (E + V)

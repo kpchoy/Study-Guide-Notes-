@@ -1,0 +1,2 @@
+- what is a datagram?
+- what are the benefits of UDP over TCP? What are the shortcomings?
