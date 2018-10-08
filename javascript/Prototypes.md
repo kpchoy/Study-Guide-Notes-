@@ -16,3 +16,8 @@
 
 - What are the valid values for an object's prototype?
   - either object or null 
+
+- functions will automotically create prototype objects that have the function itself set as object.constructor 
+
+- the `new` keyword can be applied to all functions tht arent arrow functions, even if the function does not return an object 
+

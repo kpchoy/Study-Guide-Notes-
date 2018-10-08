@@ -21,3 +21,7 @@
 
 - Walk through an arbitrary example of a RESTful request/response cycle, and describe what makes it RESTful
   - making a request to a server with (URL, method, headers, body), and the server returning you info in http response (Status code, headers, body)
+
+- RESTful API should allow for resources to be accessed and manipulated through 
+  - sending HTTP requests to stable URIs that specify the id of the object in the URI
+  - sending complete representations of the resource 

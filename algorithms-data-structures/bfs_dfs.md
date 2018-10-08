@@ -16,3 +16,7 @@
   - DFS use a stack 
   - BFs use a queue 
 
+- BFS can be implemented using a queue and adding children to the queue every time an element is evaluated 
+- BFS can work  by evaluating elements when they off the queue or when they enter the equeue
+- BFS and DFS can be performed on an undirect graph where there is no concept of children
+

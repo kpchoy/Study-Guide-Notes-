@@ -52,6 +52,8 @@
 - Give a high level overview of an Adjacency Matrix
   - square matrix used to represent a finite graph. Size V*V. Elements of the matrix indicate whether pairs of vertices are adjacent 
 
+- Adjacency Matricies provides O(V) for finding all adjacent nodes to a certain node
+
 - If we were only concerned about time complexity is an Adjacency Matrix efficient? Why/why not?
   - efficient, 2D array operations are O(1) time 
 
