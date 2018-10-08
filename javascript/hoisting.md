@@ -1,0 +1,7 @@
+- hoisting 
+  - moving `var` and `function` declarations to the top of their scopes 
+- In which phase does hoisting occur?
+  - compilation phase 
+- What is the difference between function hoisting and variable hoisting?
+  - function hoisting - declared funciton can be called before it is defined
+  - variable hoisting - variables are partially hoisted. Declarations are hoisted but not its assignment 
