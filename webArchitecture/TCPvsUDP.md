@@ -1,2 +1,10 @@
 - what is a datagram?
+  - basic transfer unit associated with networking 
 - what are the benefits of UDP over TCP? What are the shortcomings?
+  - small packet size UDP header: 8 bypes, TCP header: 20 bytes 
+  - UDP no connection to create and maintian 
+  - more control over what data is sent 
+  - udp no compensation for lost packets 
+  - no inorder packet deliver 
+  - no congestion control 
+  - not that reliable 
