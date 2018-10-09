@@ -95,10 +95,10 @@ def bubblesort(arr)
     end 
   end
   
-  p `Array is sorted in #{sorts} swaps.`
-  p `First Element: #{arr.first}`
-  p `Last Element: #{arr.last}`
-  
+  p "Array is sorted in #{sorts} swaps."
+  p "First Element: #{arr.first}"
+  p "Last Element: #{arr.last}"
+ 
 end 
 
 bubblesort([3,2,1])

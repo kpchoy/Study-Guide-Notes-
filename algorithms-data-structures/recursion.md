@@ -9,3 +9,13 @@
 - Describe direct and indirect recursion
   - direct recursion - method invokes itself 
   - indirect recursion - method invokes another method 
+
+- What is tail call recursion? Why is it helpful, if at all?
+  - tail recursive when recursive call is last thing executed by function 
+
+- Discuss advantages/disadvantages of recursion
+  - dis - recursion is slower, takes up more of the stack 
+  - adv - tree traversal 
+
+- How is memory allocated during recursive function calls?
+  - memory allocated on the stack, each recursive call pushes stack frame onto stack, once base case is hit stack frames are popped off the stack 
