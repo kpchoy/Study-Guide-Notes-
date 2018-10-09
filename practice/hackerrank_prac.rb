@@ -79,4 +79,26 @@ def sherlockAndAnagrams(s)
 
 end
 
-p sherlockAndAnagrams("abba")
+def bubblesort(arr)
+  sorts = 0 
+  sorted = false 
+  until sorted 
+    sorted = true 
+    arr.each_with_index do |num, idx1|
+      (idx1...arr.length).each do |idx2|
+        if arr[idx1] > arr[idx2]
+          arr[idx1], arr[idx2] = arr[idx2], arr[idx1]
+          sorts += 1 
+          sorted = false 
+        end 
+      end 
+    end 
+  end
+  
+  p `Array is sorted in #{sorts} swaps.`
+  p `First Element: #{arr.first}`
+  p `Last Element: #{arr.last}`
+  
+end 
+
+bubblesort([3,2,1])
