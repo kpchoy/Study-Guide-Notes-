@@ -14,3 +14,15 @@
   - to access an object, a method can use `this` keyword. 
 
 ---
+
+# new keyword 
+
+- What does the new keyword do in Javascript?
+  - creates a new object 
+  - sets objects prototype to be prototype of constructor function
+  - executes constructor function with `this` as newly created object 
+  - returns created object 
+
+- What type of function is invoked with the new keyword? What does this function return?
+  - functions invoked with new keyword are constructor functions
+  - this function returns created object 
