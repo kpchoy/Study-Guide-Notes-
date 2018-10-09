@@ -13,3 +13,12 @@
       - action to be dispatched 
     - returns next state of app 
     - must return current state for undefined actions 
+
+
+
+- What is the role of the store in Redux?
+  - stores whole state of the app in an immutable object tree 
+
+- What does the subscribe method do in Redux?
+  - adds a change listener, will be called anytime that an action is dispatched 
+  
