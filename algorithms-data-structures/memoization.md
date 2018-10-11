@@ -1,0 +1,5 @@
+- What is the difference between Memoization and Tabulation?
+  - tabulation bottom up dynamic programming, solve all related sub problems first 
+  - memoization top down dynamic programming, 
+- Why is memoization helpful?
+  - cache previously computed results, and return the cached result when the saem computation is needed again 

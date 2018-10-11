@@ -10,10 +10,10 @@
     - compare next state to current state 
 
   - shouldComponentUpdate 
-   - controlling exactly when your component will re-render 
+    - controlling exactly when your component will re-render 
 
   - componenetWillUpdate 
-   - used instead of componenetWillReceiveProps on a componenet that also has shouldComponenetUPdate 
+    - used instead of componenetWillReceiveProps on a componenet that also has shouldComponenetUPdate 
 
   - componentDidUpdate 
     - updating the DOM in response to prop or state changes 
