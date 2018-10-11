@@ -1,0 +1,4 @@
+- What is the difference between HTTP and HTTPS 
+  - Hypertext transfer protocall
+  - Hypertext transfer protocall secure 
+    - computers agree on a "code", scramble messages using "code" so no one in between can read them
