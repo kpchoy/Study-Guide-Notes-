@@ -1,0 +1,3 @@
+- What are presentational components?
+  - how things look
+  - receive data and callbacks through props 

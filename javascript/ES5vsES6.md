@@ -1,0 +1,5 @@
+- Discuss 4 differences between ES5 and ES6 that you find important
+  - ES6 doesnt allow duplicated variable assignments when using let and const 
+  - babel is used to conver ES6 to ES5 for legacy browsers 
+  - "Rest" parameters in ES6 (..args) for calling an array of arguments 
+  - "use strict" force us to write better javascript 
