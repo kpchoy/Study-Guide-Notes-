@@ -26,3 +26,7 @@
 - What type of function is invoked with the new keyword? What does this function return?
   - functions invoked with new keyword are constructor functions
   - this function returns created object 
+
+# Event Delegation 
+- What is event delegation? 
+  - a lot of elements handled in similar way. Put a single handler on common ancestor 
