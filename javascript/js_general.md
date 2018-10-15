@@ -41,3 +41,8 @@
   - only works for runtime errors 
 - When creating a custom error, what attributes should it have?
   - our errors should support basic error properties like message name. HttpError objects may have statusCode property with value like 404, 403, 500
+
+# DOMContentLoaded
+- What's the difference between the DOMContentLoaded and load event triggers?
+  - DOMContentLoaded - document has finished loading (but not its dependent resources)
+  - load - a resource and its dependent resources have finished loading 
