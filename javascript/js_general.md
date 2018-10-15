@@ -30,3 +30,14 @@
 # Event Delegation 
 - What is event delegation? 
   - a lot of elements handled in similar way. Put a single handler on common ancestor 
+
+# Error Handling 
+- What are the steps of a `try..catch` block in Javascript?
+  - First, the code in try {...} is executed.
+  - if no errors, catch(err) ignored
+  - if error occurs, try execution is stopped, control flows to beginning of catch(err). The err variable has error object with details 
+ 
+- What type of errors to `try..catch` blocks work for?
+  - only works for runtime errors 
+- When creating a custom error, what attributes should it have?
+  - our errors should support basic error properties like message name. HttpError objects may have statusCode property with value like 404, 403, 500
