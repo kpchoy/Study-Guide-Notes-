@@ -26,3 +26,13 @@
 -  What is an XMLHttpRequest?
    - object used to communicate with servers, can send a recieve files in JSON, XML, HTML
    - can retrive info without having to refresh the page
+
+# Same origin and CORS
+- When are two pages considered to have the same origin?
+  - when protocal (port and host) are the same for both pages 
+
+- How might you allow cross-origin resource sharing?
+  - CORS 
+- What is CORS?
+  - cross origin resource sharing 
+  - HTTP headers tell browser to let web app have permission to access resources from different server with different origin 
