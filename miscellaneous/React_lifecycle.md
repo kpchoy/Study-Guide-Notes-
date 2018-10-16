@@ -31,3 +31,11 @@
 
 -  Give one explanation for why we have to make AJAX requests in componentDidMount
    - cant guarantee that a ajax request will not resolve before component mounts
+
+- Explain Context in React
+  - pass data through component tree without having to pass props manually at every level 
+
+
+- What does the <Provider> component do?
+  - allows Consumer to subscribe to context changes 
+  - accepts  `value` prop to be passed down to Consumers
