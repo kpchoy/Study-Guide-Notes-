@@ -16,7 +16,7 @@
   - cross site request forgery 
   - malicious entity tricks victim to perform actions on behalf of the attacker 
   - two parts 
-    - trick user to click or uplodad a page 
+    - trick user to click or uplo,dad a page 
     - send request to victim's broswers, send legitamate looking request to web app 
 - how can you prevent CSRF vulnerabilities 
   - ANTI CSRF tokens 

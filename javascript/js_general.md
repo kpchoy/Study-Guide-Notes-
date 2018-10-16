@@ -46,3 +46,10 @@
 - What's the difference between the DOMContentLoaded and load event triggers?
   - DOMContentLoaded - document has finished loading (but not its dependent resources)
   - load - a resource and its dependent resources have finished loading (ex images, styles, etc) 
+
+# Variables: let const and var 
+- Discuss the differences between let, const, and var. What are their respective scopings?
+  - let and const are not hoisted and block-scoped, cruly braces define scope variables declared in 
+  - const cannot be reassigned, but properties can be changed 
+  - var is hoisted 
+
