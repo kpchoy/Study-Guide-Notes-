@@ -45,4 +45,4 @@
 # DOMContentLoaded
 - What's the difference between the DOMContentLoaded and load event triggers?
   - DOMContentLoaded - document has finished loading (but not its dependent resources)
-  - load - a resource and its dependent resources have finished loading 
+  - load - a resource and its dependent resources have finished loading (ex images, styles, etc) 

@@ -26,3 +26,20 @@
   - item with higher priority dequeued before lower priority 
   - two items with equal prioity dequed based on order in queue
   
+- What is the time-complexity of Heap Sort 
+  - n log(n) 
+    - `buildMaxHeap` takes O(n) time 
+    - heapify takes O(log(n)) time 
+
+- What are the steps for Heap Sort 
+  1) start with unsorted array 
+  2) transform unsorted array into a heap 
+  3) transform our heap into max heap 
+  4) swap root node with last node, now remove last node from heap since it will be largest 
+  5) have 1 less node in the heap. need to heapify to make max heap once again 
+  6) now that we have a max heap repreat same steps 
+    - swap first and last node
+    - heapify tree until it is max heap again
+  7) keep repeating until left with heap size 1
+
+

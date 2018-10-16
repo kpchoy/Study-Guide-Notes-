@@ -24,4 +24,5 @@
   
 # AJAX request 
 -  What is an XMLHttpRequest?
-  - object used to communicate with servers, can send a recieve files in JSON, XML, HTML
+   - object used to communicate with servers, can send a recieve files in JSON, XML, HTML
+   - can retrive info without having to refresh the page
