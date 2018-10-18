@@ -53,3 +53,20 @@
   - const cannot be reassigned, but properties can be changed 
   - var is hoisted 
 
+# strict mode
+- What happens when you enable strict mode in javascript?
+  - easier way to write "secure" javascript 
+  - you cannot use undeclared variables 
+  - deleting a variable or object not allowed 
+  - deleting funciton not allowed 
+  - duplicating a parameter not allowed 
+
+# Rest and spread
+- How does the rest/spread operator work in JS
+  - REST: `...args` the `...` mean gather remaining paramters into an array of `args`. The `...rest` must be last argument 
+  - Spread: `...arg` expands an interable object `arr` into the list of arguments 
+    - let arr1 = [1, -2, 3, 4];
+    - let arr2 = [8, 3, -8, 1];
+    - alert( Math.max(1, ...arr1, 2, ...arr2, 25) ); // 25
+
+
