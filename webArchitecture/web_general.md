@@ -36,3 +36,17 @@
 - What is CORS?
   - cross origin resource sharing 
   - HTTP headers tell browser to let web app have permission to access resources from different server with different origin 
+
+# NoSQL vs SQL
+- What are the advantages and disadvantages of NoSQL databases vs. SQL databases?
+  - advantages NoSQL
+    - big data tasks 
+    - No tables. Easier to manage provide higher flexibility with newer data models 
+    - open source and low-cost 
+  - disadvantages NoSQL
+    - community not as well defined 
+    - Lack of reporting tools 
+    - :ack on standaradization 
+
+- NoSQL Database Types 
+  - document databases - pair each key with complex dta structure known as document. Documents contain many different key-value pairs 
