@@ -69,4 +69,10 @@
     - let arr2 = [8, 3, -8, 1];
     - alert( Math.max(1, ...arr1, 2, ...arr2, 25) ); // 25
 
-
+# bind 
+ - What problem does bind solve in Javascript? How does it accomplish this?
+   - in javascript it is easy to lose `this`. once a method is passed somewhere spearately from the object `this` is lost 
+   - allows function to have fixed `this`
+   - `func.bind(context)` is a special function passes the call to `func` setting `this=context`
+ - What is the syntax for passing arguments to the bind function?
+   - `func.bind(context)`
