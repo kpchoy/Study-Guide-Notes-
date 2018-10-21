@@ -12,3 +12,6 @@
 - What is the difference between an Inner Join and a Left Join?
   - Inner join sets all record from table A and B where join condition is met 
   - Left join sets `all records` from tabel A, along with `records` from Table B, which join condition is met 
+
+- Where in a SQL query may we use a sub query (After which SQL keyword?)
+  - easiest to start with `FROM`
