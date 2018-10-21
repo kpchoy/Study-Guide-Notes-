@@ -80,3 +80,7 @@
 # pass by reference 
 - Does Javscript by by reference or value?
   - objecgts are passed by reference, primitives are passed by value 
+
+# length
+- what does the `length` attribute refer to on a Function in Javascript 
+  - returns the number of function parameters 
