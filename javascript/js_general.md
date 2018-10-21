@@ -76,3 +76,7 @@
    - `func.bind(context)` is a special function passes the call to `func` setting `this=context`
  - What is the syntax for passing arguments to the bind function?
    - `func.bind(context)`
+
+# pass by reference 
+- Does Javscript by by reference or value?
+  - objecgts are passed by reference, primitives are passed by value 
