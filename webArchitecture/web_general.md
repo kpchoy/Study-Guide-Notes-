@@ -50,3 +50,12 @@
 
 - NoSQL Database Types 
   - document databases - pair each key with complex dta structure known as document. Documents contain many different key-value pairs 
+
+# Scaling Up Horizontally vs Vertically 
+
+- What is horizontal sclaing. what are some issues one may face when scaling horizontally
+  - scale by adding more machines 
+  - space constraints 
+
+- what is Vertical Scaling 
+  - add more power (CPU, RAM) to an existin machine  
