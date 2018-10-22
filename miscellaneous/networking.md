@@ -1,0 +1,6 @@
+- What is a symbol when talking about transmitting data?
+  - internet cable
+  - vary voltage to send binary signal -> ASCII binary signal converted to symbols
+- How is information transmitted over wireless signal?
+  - vary voltage through antenna -> radio waves in hertz 
+  - send 1s and 0s through radio waves by moving between cos and sin 
