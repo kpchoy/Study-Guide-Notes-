@@ -85,3 +85,7 @@
 - what does the `length` attribute refer to on a Function in Javascript 
   - returns the number of function parameters 
 
+# Assign variables 
+- Does JS assign variables by value or by reference?
+  - objects are passed by reference, primitives passed by value 
+
