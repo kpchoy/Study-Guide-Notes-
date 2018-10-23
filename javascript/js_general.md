@@ -89,3 +89,11 @@
 - Does JS assign variables by value or by reference?
   - objects are passed by reference, primitives passed by value 
 
+# webpack vs babel
+- what is the difference between webpack and babel
+  - babel is the transpiler (ES6 to ES5)
+  - webpack is a module bundler 
+
+# promise vs asyn/await
+- what is the difference between async/await vs promise
+ - async/await does same thing as promise, but with cleaner markup 
