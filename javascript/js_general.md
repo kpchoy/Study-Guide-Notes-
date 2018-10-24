@@ -97,3 +97,13 @@
 # promise vs asyn/await
 - what is the difference between async/await vs promise
  - async/await does same thing as promise, but with cleaner markup 
+
+# types and coercion 
+- What are the 7 different JS types?
+  - null, undefined, boolean, number, string, object, symbol 
+- Explain the difference between + and -*/ in JS when it comes to coercion.
+  - (+) sign works for both number adddition and string concatenation 
+  - *-/ operators exclusive for numeric operations 
+
+# pure function 
+- state doesnt change 
