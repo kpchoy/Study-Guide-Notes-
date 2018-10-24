@@ -4,3 +4,13 @@
 - How is information transmitted over wireless signal?
   - vary voltage through antenna -> radio waves in hertz 
   - send 1s and 0s through radio waves by moving between cos and sin 
+- How do two computers ensure signal sent between them is interpreted correctly?
+  - clock rate should match data 
+- what happens when the clocks become unsynchronized?
+  - clock slip: missing data 
+- how to do computers synchronize their clocks
+  - synchronize through GPS Antenna 
+  - atomic clock in computer itself 
+  - manchester coding 
+- what is manchester coding ?
+  - combine clock and data into same data 
