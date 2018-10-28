@@ -20,3 +20,18 @@
 - What does using 'memecache' do for you?
   - memory cache , stores whatever you want in RAM
   - search data more readily 
+
+- Why would you want to use an LRU cache in a backend server?
+  - so that you dont run out of RAM or disk space 
+
+- In the Master-Slave paradigm, what tasks are commonly done by the slave databases and why?
+  - anytime query request on master, query is copied down to slaves, and they do the same thing 
+  - master and all slaves are identical 
+  - backups that are identical 
+  - redundancy 
+
+
+- In a multi-tiered architecture, how do we get redundancy and responsiveness?
+  - master - master set up 
+  - loadbalance across two masters 
+  - if lose 1 master still have a backup master you can use 
