@@ -109,3 +109,10 @@
 - state doesnt change 
 - does not attempt to change inputs 
 - always return the same result for the same inputs
+
+# prototypal inheritance
+-  How does prototypal inheritance work?
+  - objects inherit directly from other objects 
+  - prototype delegation 
+  - concatenative inheritance 
+  - functional inheritance 
