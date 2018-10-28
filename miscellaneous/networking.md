@@ -14,3 +14,12 @@
   - manchester coding 
 - what is manchester coding ?
   - combine clock and data into same data 
+
+- What is framing?
+  - how bites are bounded 
+- What is a frame delimiter?
+  - HDLC - high level data link control 
+  - A flag to determine that the next bit starts the beginning of the frame 
+- What is bit stuffing?"
+  - whenever 5 consecutive 1 bits, stuff extra 0 before the 6th 1 bit. So that data is not read as a flag 
+
