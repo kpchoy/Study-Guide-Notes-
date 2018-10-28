@@ -107,3 +107,5 @@
 
 # pure function 
 - state doesnt change 
+- does not attempt to change inputs 
+- always return the same result for the same inputs
