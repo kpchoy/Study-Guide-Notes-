@@ -31,5 +31,5 @@
   - unique identifier assigned to NIC (network interface controller) for communications at datalink layer of network segment 
 
 -  How do packets get transferred around the internet?
-  - both MAC and IP addresses need to be known 
-  - within a netwrok the packet will be delivered on basis of MAC address 
+   - both MAC and IP addresses need to be known 
+   - within a netwrok the packet will be delivered on basis of MAC address 

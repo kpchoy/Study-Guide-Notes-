@@ -37,7 +37,8 @@
   - if lose 1 master still have a backup master you can use 
 
 -  What is database partitioning?
-  - very large tables split into smaller tables, queries run faster 
+   - very large tables split into smaller tables, queries run faster 
 
 -  Explain high availability and how it relates to the master-master paradigm
-  - most master-master systems are only loosely consistent (lazy and asynchronous)
+   - most master-master systems are only loosely consistent (lazy and asynchronous)
+   - master-master systems if one master goes down other masters will continue to update 
