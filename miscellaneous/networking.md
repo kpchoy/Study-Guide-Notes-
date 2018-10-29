@@ -33,3 +33,9 @@
 -  How do packets get transferred around the internet?
    - both MAC and IP addresses need to be known 
    - within a netwrok the packet will be delivered on basis of MAC address 
+
+- What is Address Resolution Protocol?
+  - protocal map IP address to physical machine address
+
+- What is the purpose of TCP?
+  - how computers send packets of data to each other 
