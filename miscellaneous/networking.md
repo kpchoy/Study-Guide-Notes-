@@ -23,3 +23,13 @@
 - What is bit stuffing?"
   - whenever 5 consecutive 1 bits, stuff extra 0 before the 6th 1 bit. So that data is not read as a flag 
 
+- What is a frame check sequence?
+  - error detecting code added to a frame in communication protocal 
+
+- What is a MAC address?
+  - media access control address 
+  - unique identifier assigned to NIC (network interface controller) for communications at datalink layer of network segment 
+
+-  How do packets get transferred around the internet?
+  - both MAC and IP addresses need to be known 
+  - within a netwrok the packet will be delivered on basis of MAC address 
