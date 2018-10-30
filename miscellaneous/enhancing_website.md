@@ -1,0 +1,11 @@
+- Top 10 ways to speed up a website?
+  - minimize http requests 
+  - minify and combine files 
+  - use asynchronous loading for CSS and JavaScript files 
+  - Defer JavaScript loading 
+  - minimize time to first byte 
+  - reduce server response time 
+  - choose the right hosting option for your needs 
+  - run a compression audit 
+  - enable compression 
+  - enable broser caching 
