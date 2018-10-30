@@ -1,4 +1,4 @@
 - What is an AVL tree?
   - self balancing binary search tree
 - How does an AVL stree self balance?
-  - difference between heights of left and right subtrees for every node is less than or equal to 1. 
+  - binary search tree where each sub-tree differs in height by a maximum of 1

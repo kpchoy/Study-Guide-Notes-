@@ -1,0 +1,5 @@
+- why is binary search logarithmic time?
+  - assumes an array is already sorted
+  - repeatedly divides the search interval in half 
+- If an element is smaller than its right neighbors, explain why there is definitely a peak to the right.
+  - it is the largest element in the array 

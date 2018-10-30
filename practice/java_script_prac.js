@@ -26,3 +26,4 @@ let arr2 = [2, 3, 9]
 console.log(arr1, arr2)
 merge(arr1, arr2)
 console.log(arr1, arr2)
+
