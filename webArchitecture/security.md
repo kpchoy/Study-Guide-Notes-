@@ -1,0 +1,8 @@
+- why is FTP a bad idea?
+  - passwords and data are transmitted un-encrypted 
+- What kinds of information is at risk when comunicating over HTTP
+  - data can be captured and logged by ISP and your government
+  - cookie header with session ID
+  - lack of encryption 
+- why should you ensure that files on a web server are not being executed by root?
+  - if the web server is running with admin privlages(root), and there is a bug then the bad guy can take advantage of the bug and take over your system, delete things, look at passwords etc 
