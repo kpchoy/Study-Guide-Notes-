@@ -129,3 +129,10 @@
   1) function runs when promise is resolved
   2) function runs when promise is rejected 
   - passed function put on microtask queue that is ran when the queue is emptied 
+- What is Promise Chaining?
+  - chain of `.then` handlers 
+- Explain what is returned by .then
+  - `promise.then` returns a promise that the next `.then` can be called on 
+- How can you suspend the execution of a .then statement?
+  - if returned value is a promise, further execution is suspended until the promise settles 
+  
