@@ -116,3 +116,16 @@
   - prototype delegation 
   - concatenative inheritance 
   - functional inheritance 
+
+# promise 
+- What is a Promise?
+  - allows "producing code" to take whatevever time it needs to produce the promised result, and the "promise" makes result available to all subscribed code when it is ready 
+- what arguments does the Promise object take?
+  - resolve/ reject 
+- what arguments does the resolve function take?
+  - value, promise, thenable
+- What arguments does .then take?
+ explain .then in the context of the callback queue
+  1) function runs when promise is resolved
+  2) function runs when promise is rejected 
+  - passed function put on microtask queue that is ran when the queue is emptied 
