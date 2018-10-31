@@ -9,3 +9,11 @@
   - run a compression audit 
   - enable compression 
   - enable broser caching 
+
+- How can you speed up a website?
+  - avoid inline/embedded code 
+  - styles up top, scripts down bottom 
+  - try out async 
+  - minify css through automated tools 
+  - combining multiple css files 
+  - prefer link over @import 
