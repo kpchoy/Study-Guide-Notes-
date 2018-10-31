@@ -6,3 +6,13 @@
   - lack of encryption 
 - why should you ensure that files on a web server are not being executed by root?
   - if the web server is running with admin privlages(root), and there is a bug then the bad guy can take advantage of the bug and take over your system, delete things, look at passwords etc 
+- what is WPA2?
+  - encryption to secur wi-fi networks 
+- whata is public key cryptography?
+  - encryption scheme uses two mathematically related keys (public and private) 
+  - public key used to encrypt
+  - private key used to decrypt 
+- what is a certificate authority?
+  - entity issues digital certificates, certifies ownership of a public key
+- Why do certificate authorities exist?
+  - act as a third party that is trusted by both subject (owner), and the party relying upon the certificate
