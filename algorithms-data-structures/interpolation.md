@@ -1,0 +1,8 @@
+- How does Interpolation Search Work?
+  - in a loop calc the value of "pos" using the probe position formula
+  - if it is a match return index of the item, and exit
+  - If the item is less than arr[pos], calc the probe position of the left sub-array. otherwise calculate the same in the right-subarr
+  - repeat until matchis found or subarray reduces to zero 
+- What is the average and worst case time complexity. Why?
+  - if elements evenly distrubted O (log log n)
+  - worst case O(n)
