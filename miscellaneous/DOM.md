@@ -1,0 +1,18 @@
+- What is the DOM?
+  - Document object model
+  - every HTML-tag is an object 
+- What happens when you omit the head tag or the body tag in your HTML
+  - the browser will create it 
+  - browser will restore the missing parts 
+- What happens if you include more tags after the tag?
+  - everything in HTML even comments becomes part of the DOM
+- what kind of objects is returned by .childNodes?
+  - a collection, a specail array-like iterable object 
+- Talk about the different ways you can access DOM elements in JS?
+  - parentNode, firstChild, lastChild, previousSibling, lastSibling
+- What are two important properties of DOM collections?
+  - can use a loop to iterate over
+  - array methods will not work 
+- What is the difference between calling .childnodes and calling.children?
+  - .children returns only those children that are element nodes 
+  - .childNodes can contain any node 
