@@ -137,3 +137,14 @@
   - `promise.then` returns a promise that the next `.then` can be called on 
 - How can you suspend the execution of a .then statement?
   - if returned value is a promise, further execution is suspended until the promise settles 
+
+# promise api 
+- when would you want to use Promise.resolve()?
+  - returns a resolved promise with the given `value`
+  - used when we already have a value, but want it to be "wrapped" in a promise
+- explain how Promise.all works?
+  - to run many promises in parallel and wait till all of them are ready 
+- what happens when you pass a non-promise object in the iterable you pass to Promise.all?
+  - it is wrapped in a `Promise.resolve`
+- What is Promise.race?
+  - takeas an iterable of promises, instead waiting for them to finish, waits for first result and goes on with it
