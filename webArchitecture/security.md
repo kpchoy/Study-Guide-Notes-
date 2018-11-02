@@ -16,3 +16,9 @@
   - entity issues digital certificates, certifies ownership of a public key
 - Why do certificate authorities exist?
   - act as a third party that is trusted by both subject (owner), and the party relying upon the certificate
+- what is SQL injection? How can you avoid it?
+  - SQL statements inserted into entry field for execution, exploit security vulnerability in app software
+  - dont use dynamic SQL - dont construct queries with user input
+  - update and patch
+  - use firewall
+  - use appropriate privileges 
