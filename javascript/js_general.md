@@ -148,3 +148,11 @@
   - it is wrapped in a `Promise.resolve`
 - What is Promise.race?
   - takeas an iterable of promises, instead waiting for them to finish, waits for first result and goes on with it
+
+# async/await 
+- what does the async keyword do?
+  - `async` before a function means a function always returns a promise
+- what does the await keyword do?
+  - await makes JS wait until that promise settles and returns its result 
+- what does console.dir() do?
+  - way to see all the properties of a specified JS object by which developer can easily get properties of the object. 
