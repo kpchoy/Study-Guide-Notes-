@@ -16,3 +16,8 @@
 - What is the difference between calling .childnodes and calling.children?
   - .children returns only those children that are element nodes 
   - .childNodes can contain any node 
+- what happens if you set innerHTML to a script?
+  - it does not execute, it becomes part of HTML, just as a script that has already run
+- what does the .hidden property do?
+  - specifies whether element is visible or not
+  
