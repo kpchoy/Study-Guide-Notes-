@@ -190,3 +190,12 @@ surrgate(){}
 // expression
  - let example2 = function() {}
  - not hoisted
+
+ # advanced currying 
+- what is currying 
+  - translating function `f(a,b,c)` to `f(a)(b)(c)`
+- What extra features do you get when using lodash.curry?
+  - returns a wrapper allows func to call normally when all args supplied, or returns a partial 
+- Why might you use currying?
+  - functional callable normally, and get partials easily 
+  
