@@ -1,0 +1,5 @@
+- What are the 9 areas of inquiry that you you should define froma high level before diving into- implementation?
+- compare ACID vs. BASE
+- What is consistent hashing?
+- What is optimistic vs. pessimistic locking?
+- What is strong vs. eventual consistency?
