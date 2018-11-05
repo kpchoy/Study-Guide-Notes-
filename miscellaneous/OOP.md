@@ -1,0 +1,10 @@
+- What does data before action mean?
+  - consider data first and then consider operations associated with those data types  
+- What are the componenets of a class?
+  - field(data memeber)
+  - method(function member)
+- what is encapsulation
+  -  methods act as "interface" to object's fields
+- what is the difference between public and private methods?
+  - public: visible anywhere
+  - private: visible only to methods of own type 
