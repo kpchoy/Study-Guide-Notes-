@@ -1,0 +1,3 @@
+- What are the steps to detecting a cycle in a graph?
+  - data set elements paritioned into non-overlapping subsets 
+  - for each edge make subsets using both veriticies of the edge, if both verticies are in same subset a cycle is found 
