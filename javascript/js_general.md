@@ -174,6 +174,9 @@ surrgate(){}
 - What is same-origin policy? When is it not enforced?
   - security mechanicsm restircts how document or script loaded from one origin can interact with resource from another origin.
   - not enforced trust zones, both domains highly trusted
+- What is JSNOP
+  - JSON with padding, javascript pattern to request data by loading a `script` tag, bypasses same-origin policy. 
+
 # function delcaration vs function expression 
 // function declaration
   - function example() {
