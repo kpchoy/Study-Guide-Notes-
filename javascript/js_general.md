@@ -170,12 +170,16 @@ surrgate(){}
 - what does console.dir() do?
   - way to see all the properties of a specified JS object by which developer can easily get properties of the object. 
 
+# same orign policy
+- What is same-origin policy? When is it not enforced?
+  - security mechanicsm restircts how document or script loaded from one origin can interact with resource from another origin.
+  - not enforced trust zones, both domains highly trusted
 # function delcaration vs function expression 
 // function declaration
   - function example() {
     - console.log("A");
     - setTimeout(function(){console.log("C")}, 0)
-    - console.log("B");
+
   - }
 // hoisted
 
