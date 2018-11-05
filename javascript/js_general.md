@@ -5,13 +5,16 @@
 ------
 # this 
 - when is the value of `this` evaluated?
-  - the value of `this` is evaluate during the run-time. can be anything
+  - the value of `this` is evaluate during the run-time
+  - this evaluates the value of the ThisBinding of the current execution context 
 - How does `use strict` affect the value of `this`?
   - `this` in an anonymous function is is undefined when using strict 
 - without `use strict`, what is the value of `this` inside a named or anonymous function? 
   - in non-strict mode value of `this` will be the global  object  
 - what is the value of `this` in method style syntax?
   - to access an object, a method can use `this` keyword. 
+- refers to context 
+- bind will pass context to first parameter 
 
 ---
 
@@ -117,6 +120,16 @@
   - concatenative inheritance 
   - functional inheritance 
 
+- how do you do prototypal inheritance
+
+// new
+dog.prototype = Object.create(animal.prototype)
+
+// old
+surrgate(){}
+
+- classical inher vs protopyal inheritance
+
 # promise 
 - What is a Promise?
   - allows "producing code" to take whatevever time it needs to produce the promised result, and the "promise" makes result available to all subscribed code when it is ready 
@@ -156,3 +169,17 @@
   - await makes JS wait until that promise settles and returns its result 
 - what does console.dir() do?
   - way to see all the properties of a specified JS object by which developer can easily get properties of the object. 
+
+# function delcaration vs function expression 
+// function declaration
+  - function example() {
+    - console.log("A");
+    - setTimeout(function(){console.log("C")}, 0)
+    - console.log("B");
+  - }
+// hoisted
+
+
+// expression
+ - let example2 = function() {}
+ - not hoisted
