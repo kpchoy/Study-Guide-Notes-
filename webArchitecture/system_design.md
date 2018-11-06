@@ -1,5 +1,22 @@
 - What are the 9 areas of inquiry that you you should define froma high level before diving into- implementation?
+  - features 
+  - define API
+  - availability 
+  - latency performance 
+  - scalability
+  - durability 
+  - class diagram 
+  - security & privacy 
+  - cost effective 
 - compare ACID vs. BASE
+  - ACID - relational databases 
+  - BASE - NoSQL databases 
 - What is consistent hashing?
+  -  represents requests and server nodes in ring structure "hash ring"
+  - infinite number of points on ring, server can be placed at random locations on ring, the requests (keys) are also put on same ring 
 - What is optimistic vs. pessimistic locking?
+  - optimistic - do not enquire any locks, but ready to commit transaction check that the version has not changed 
+  - pessimistic - lock record for your exclusive use until you are done with it  
 - What is strong vs. eventual consistency?
+  - strong: reads will always see latest writes - relational databases 
+  - eventual: will see some writes eventuallys ee latest writes 
