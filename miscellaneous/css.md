@@ -1,0 +1,13 @@
+# flex box 
+- Explain the syntax flex: 1, flex: 2, etc.
+  - if you want space divided evenly among child elements use flex 1
+  - larger and smaller numbers for relations
+- What is the default value of align-items in the flex world?
+  - stretch, gives us equal heights for all columns
+- What is flex-basis?
+  - flex box way of define size
+  - similar to width 
+- Explain flex-wrap
+  - flex box will drop down to multiple rows when it needs to 
+- what is margin: auto used for?
+  - center horizontally and vertically 
