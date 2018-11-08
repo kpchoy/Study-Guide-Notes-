@@ -1,0 +1,6 @@
+- What is the Floyd-Warchall algorithm good for?\
+  - find shortest distance between verticies in a given edge weighted directed graph
+- How does it work?
+  - initialize solution matrix same as input graph
+  - update soln matrix consider all verticies as intermediate vertexes 
+  - one by one pick all vertices and update all shortest paths, which include picked vertex as an intermediate vertex in shortest path 

@@ -27,3 +27,21 @@ console.log(arr1, arr2)
 merge(arr1, arr2)
 console.log(arr1, arr2)
 
+let foo = function (input1) {
+  let counter = 0;
+  
+  let b = function (input2) {
+    let c = input1 * input2;
+    counter ++;    
+    console.log(c + counter);
+
+  }
+  
+  return b;
+};
+
+
+let bar = foo(2);
+bar(3); // 7
+bar(5); // 12
+bar(10); // 23

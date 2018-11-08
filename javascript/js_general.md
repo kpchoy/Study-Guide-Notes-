@@ -198,4 +198,32 @@ surrgate(){}
   - returns a wrapper allows func to call normally when all args supplied, or returns a partial 
 - Why might you use currying?
   - functional callable normally, and get partials easily 
-  
+
+# higher order functions 
+- function that returns a function
+- can take function as argument
+
+# closures 
+- give an example of where you would use a closure
+  - click handlers on a webpage 
+  - you dont know when a user will click certain features on a page
+
+- What are the benefits of a Javascript Closre?
+  - allows data encapsulation, some data should not be directly exposed 
+
+- Formallly define a Javascript closure 
+  - combination of a function and the lexical envirnoment where it was declared 
+  - allow function to access variables from an enclosing/ outer scope 
+  - closure crated whenever define a function
+
+- Give an example of a closure?
+  - function sayHi(name){
+  - var message = `Hi ${name}!`;
+  - function greeting() {
+  - console.log(message)
+  - }
+  - return greeting
+}
+
+- What is data encapsulaiton? 
+  - some data should not be directly exposed 
