@@ -20,3 +20,40 @@
 - What is strong vs. eventual consistency?
   - strong: reads will always see latest writes - relational databases 
   - eventual: will see some writes eventuallys ee latest writes 
+- What is a bloom Filter?
+  - space efficient data structure 
+  - if an element is part of a set or not
+  - can have false positives, but never false negatives
+- What is PAXOS?
+  - derives conesus over distributed host
+- OOP design patterns, singletons, Virtual- Machines, Containers,
+  - singletons: restricts instantiation of class to one object
+  - virtual machines: based on computer architecture and provide functionality of physical computer 
+    - operating system on top of a shared resources so you feel that you are owner of hardware
+  - containers: running application and dependencies in an isolated environment 
+    - sit on top of physical server and host OS
+    - shared componenets are read only
+- What is Pub-Sub pattern?
+  - messaging pattern 
+  - categorize publish messages into classes
+  - subscribers express interest in one or more classes and receive messages of interest
+- What is Map Reduce?
+  - distrubted and parallel processing of big data
+  - map filter and sortin data
+  - reduce summerizing data 
+- What is multi-threading?
+  - central processing unit to execute multiple threads concurrently
+- What is Redis?
+  - distrubted cache, hold data in memory 
+  - key value storage
+  - setup as a cluster 
+  - only hold limited amount of data permitted by host
+- What is Kafka?
+  - used in real time streaming data architecture to provide real time analytics 
+- What are NGINX and HAProxy?
+  - load balancers, very efficient
+- What is Docker?
+  - software platform for writing containers  
+- What is Hadoop/Spark?
+  - map reduce 
+
