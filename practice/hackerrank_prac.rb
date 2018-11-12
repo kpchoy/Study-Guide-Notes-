@@ -139,18 +139,48 @@ def resolve_string(string)
   new_string
 end
 
-puts "test: '#{test}'"
-puts "  #{resolve_string(test)}"
-puts "  #{resolve_string(test)}"
-puts "  #{resolve_string(test)}"
-puts "  #{resolve_string(test)}"
-puts "  #{resolve_string(test)}\n\n"
+# puts "test: '#{test}'"
+# puts "  #{resolve_string(test)}"
+# puts "  #{resolve_string(test)}"
+# puts "  #{resolve_string(test)}"
+# puts "  #{resolve_string(test)}"
+# puts "  #{resolve_string(test)}\n\n"
 
-puts "test_2: '#{test_2}'"
-puts "  #{resolve_string(test_2)}"
-puts "  #{resolve_string(test_2)}"
-puts "  #{resolve_string(test_2)}"
-puts "  #{resolve_string(test_2)}"
-puts "  #{resolve_string(test_2)}"
+# puts "test_2: '#{test_2}'"
+# puts "  #{resolve_string(test_2)}"
+# puts "  #{resolve_string(test_2)}"
+# puts "  #{resolve_string(test_2)}"
+# puts "  #{resolve_string(test_2)}"
+# puts "  #{resolve_string(test_2)}"
 
 
+def outOfPlaceChecker(arr)
+  out_of_place = false
+  i = 0
+
+  while i < arr.length-1
+    if arr[i] > arr[i+1] && out_of_place == true
+      return nil
+    end
+
+    if arr[i] > arr[i+1]
+      out_of_place = true
+
+      if arr[i + 2] && arr[i + 2] > arr[i]
+        out_of_place_value = 2
+      else
+        out_of_place_value = 1
+      end
+    end
+
+    i+=1
+  end
+
+  if out_of_place
+    return out_of_place_value
+  end
+  return arr.length
+end
+
+p outOfPlaceChecker([2,1,3,4])
+p outOfPlaceChecker([4, 2, 3, 1])
