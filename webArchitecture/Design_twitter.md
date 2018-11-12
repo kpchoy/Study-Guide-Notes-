@@ -1,0 +1,12 @@
+- What is the matter with the Naive solution for Timeline?
+  - use relational databases 
+    - user table
+    - tweet tabel, has a user id column 
+    - 1 to many relationship, user can have many tweets
+    - SELECT statement give me all the tweets for all the ppl i follow, scanning whole tweets table 
+- How would you ensure high availability of the timeline?
+  - load balancer 
+  - fan out- take tweet put in precompute database 
+  - reds: precommputed database 
+  - every home twitter feed is replicated 3 times
+  - redis servers have a huge amount of memory, only store tweets users active last few eeks   
