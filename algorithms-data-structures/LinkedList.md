@@ -6,3 +6,18 @@
 - What do you have to do to delete a node from a list?
   - when node to be deleted is first node. copy data of next node to head node and delete the next node
   - else find previous node and changing next of previous node 
+
+- How may we compare two string using a Linked List?
+  - O(n), minimum lenght of both linked list 
+  - head of first and head second linked list
+  - check whether each characters are matched, stop when either end of linked list is reached or current chars do not match
+  - if both lists not empty, compare mismatching characters
+  - if either of the two lists has reached end return 1 or -1
+  - if none of conditions is true, both lists reach end, so return 0 
+- Explain how you handle numbers of different sizes when summing two Linked Lists?
+  - calculate sizes of two linked list
+  - if sizes are same, calc sum using recursion. Hold all nodes in recursion call stack till the rightmost node, calc sum of rightmost nodes and forward carry to left side.
+  - if size not the same,
+    - calc difference of sizes of two linked lists. let difference be `diff`
+    - move `diff` nodes ahead in bigger linked list. calc sum of smaller list and right sub-list. Also store the carry of this sum
+    - calculate the sum of the carry, with remaining left sub-list of larger list. Nodes of this sum are added at the beginning of sum list 

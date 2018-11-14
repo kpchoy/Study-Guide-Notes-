@@ -9,4 +9,4 @@
   - fan out- take tweet put in precompute database 
   - reds: precommputed database 
   - every home twitter feed is replicated 3 times
-  - redis servers have a huge amount of memory, only store tweets users active last few eeks   
+  - redis servers have a huge amount of memory, only store tweets users active last few weeks   
