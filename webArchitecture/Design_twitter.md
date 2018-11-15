@@ -10,3 +10,7 @@
   - reds: precommputed database 
   - every home twitter feed is replicated 3 times
   - redis servers have a huge amount of memory, only store tweets users active last few weeks   
+
+- Discuss Searching, Indexing, and Push notifications in the context of Designing Twitter
+    - puts tweet into load balancer -> stores tweet, indexes tweet -> find tweet as fast as possible
+    - volume of push notifications are huge 
