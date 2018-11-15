@@ -21,3 +21,20 @@
     - calc difference of sizes of two linked lists. let difference be `diff`
     - move `diff` nodes ahead in bigger linked list. calc sum of smaller list and right sub-list. Also store the carry of this sum
     - calculate the sum of the carry, with remaining left sub-list of larger list. Nodes of this sum are added at the beginning of sum list 
+
+- When creating an alternating linked list, what do you do?
+  - expected time is O(n) where n is num of nodes 
+  - run a looop while there are available positions in first loop
+  - insert nodes of second list by changing pointers
+- What is the best method for getting the union and intersection of two lists?
+  - Use hasing 
+  - Union
+    - initialize result list as NULL and create an empty hash table
+    - traverse both lists one by one, for each el visited, look the element in hash table
+    - if el is not present, insert el to return list, if el is present then ignore it
+  - Intersection 
+    -  initialize result list as NULL and create empty hash table
+    - traverse list 1 
+    - for each el being visited in list1, insert el in hash table
+    - traverse list2, for each el visited in list2, look the elemnt in hash table. If el is present then insert el to result list, if el not present, ignore it
+    - O(m+n) time complexity 
