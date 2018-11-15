@@ -1,0 +1,26 @@
+- handle ambiguity
+  - system design, class hiearchy
+- systematic approach
+  - you need to ask for clarifying questions 
+  - 4 sizes of parking spaces 
+    - S,M,L,XL
+  - abstract vehicle
+    - string liscense plate
+    - enum color 
+    - 4 classes that inherit from this vehicle
+      - S: Motorcycle
+      - M: CAR
+      - L: Truck
+      - XL : Bus
+  - class ParkingLot(zipCode: Int)
+    - placeVehicle(vehicle: vehicle)
+  - class Spot(id: Long, size: enum)
+- Coding portion
+  - place vehicle and retrieve vehicle, make fast as possible to retrieve and place
+  - 4 stacks 
+    - placeVehicle O(1) for search + put in HashMap
+    - spot: removeVehicle(liscenceplate: vehicle)
+      - lookup HashMap 
+
+- Testing phase
+  - take hints, let interviewer guide you
