@@ -38,3 +38,9 @@
     - for each el being visited in list1, insert el in hash table
     - traverse list2, for each el visited in list2, look the elemnt in hash table. If el is present then insert el to result list, if el not present, ignore it
     - O(m+n) time complexity 
+- Explain algorithm to reverse a linked list every k nodes
+    - reverse(head, k)
+    - reverse first sublist of size k, while reversing keep track of prev and next node
+    - pointer to next = next, pointer to prev = prev
+    - head -> next = reverse(next, k), recursively call rest of linked list and merge two sub lists
+    - return prev, prev becomes new head of list

@@ -1,0 +1,15 @@
+- Designing whatsapp 
+- features 
+  - one to one text 
+    - bottle neck will be server in middle 
+    - asynchronous
+    - horizontal scaling 
+    - messages can get delivered in wrong order
+      - if you are offline, and you log backin, different servers will try to deliver to you all at the same time
+  - sent, delivered, and read 
+    - sent: tcp -> acknowledge
+    - delivered: open up another connection to deliver ackowledgement to sender 
+    - read: ack(with id) -> to sender
+  - push notifications 
+    - fire and forget 
+

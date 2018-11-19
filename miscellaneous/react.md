@@ -19,3 +19,5 @@
   - use redux library connect() function to prevent unnecessary re-renders 
 - passing the store
   - `Provider` used to make store available to all container components in the application 
+
+- Explain imperative vs Declarative in React 
