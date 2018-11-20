@@ -21,3 +21,14 @@
   - `Provider` used to make store available to all container components in the application 
 
 - Explain imperative vs Declarative in React 
+
+- Higher order components 
+    - what is the use case for higher order components?
+        - explicit state 
+    - what is a higher order function
+        - function that returns a function 
+    - what is a higher order component
+        - function that returns a component 
+        - share behaviro across an app 
+    - how do HOCs replace classical inheritance
+        - state passing 
