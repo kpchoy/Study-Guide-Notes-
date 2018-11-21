@@ -1,0 +1,17 @@
+- customer driver matching 
+- mapping 
+- trip storage 
+  - closed datacenter, and backup datacenter 
+    - high availability 
+  - caching 
+    - map data
+    - event data 
+  - data warehouse (Hadoop)
+  - SOA: service oriented architecture 
+    - many smaller services serve 1 purpose
+
+- Logging 
+  - of drivers and passengers 
+  - kafka
+    - injesting data in real time 
+    - periodically does storing into Hadoop
