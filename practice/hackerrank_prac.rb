@@ -182,5 +182,19 @@ def outOfPlaceChecker(arr)
   return arr.length
 end
 
-p outOfPlaceChecker([2,1,3,4])
-p outOfPlaceChecker([4, 2, 3, 1])
+# p outOfPlaceChecker([2,1,3,4])
+# p outOfPlaceChecker([4, 2, 3, 1])
+
+def makeAnagram(a, b)
+  hash_map = Hash.new(0)
+  p hash_map 
+end
+
+# p makeAnagram("abc", "cde")
+
+def reverse(x)
+  result = x.to_s.split("").reverse.join("").to_i
+  result *= -1 if x < 0
+  return 0 if result > 2**31 - 1 || result < -2**31
+  result 
+end

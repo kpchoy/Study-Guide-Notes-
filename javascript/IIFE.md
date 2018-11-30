@@ -10,3 +10,6 @@
 - What is the syntax for an IIFE?
   - surrounding paranthesis prevents from treating as func declaration 
   - final paranthesis executing function expresssion 
+
+- example: 
+  - (function() {console.log("pick me!")})();
