@@ -8,3 +8,12 @@
   - supports tens of thousands concurrent connections 
   - optimized throughput and scalability in web apps 
   - makes node.js extremely fast and efficient 
+- npm
+  - install node programs /modules
+  - link dependices
+  - modules get installed into node modules folder 
+- package.json file 
+  - goes inn root of your package/app
+  - tells npm how package is structured
+  - npm init will set it up for you 
+  
