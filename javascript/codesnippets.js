@@ -38,3 +38,40 @@ b();
 console.log(a);
 // answer: 1
 // the function a creates local scope and a remains set to 1
+
+//hoisting
+function foo(){
+  function bar() {
+      return 3;
+  }
+  return bar();
+  function bar() {
+      return 8;
+  }
+}
+alert(foo());
+// return 8 because 8 is hoisted, but comes after the 3
+
+
+// hoisting 
+function parent() {
+  var hoisted = "I'm a variable";
+  function hoisted() {
+      return "I'm a function";
+  }
+  return hoisted(); 
+}
+console.log(parent());
+// typererror hoisted is not a function 
+// function is hoisted, but then hoisted is set to string
+// hoisted is therefore not a function
+
+// hoisting 
+var myVar = 'foo';
+(function() {
+  console.log('Original value was: ' + myVar);
+  var myVar = 'bar';
+  console.log('New value is: ' + myVar);
+})();
+// original value was undefined. New value is bar.
+// declare myVar in the function 

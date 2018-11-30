@@ -1,0 +1,10 @@
+- What is node js
+  - js runtime built on chrome v8 js engine
+  - javascript running on the server
+  - used to buid powerful fast and scalable web apps 
+  - use event driven non-blockin I/O model
+- non-blocking i/o model
+  - works on single thread using non-blocking i/o calls 
+  - supports tens of thousands concurrent connections 
+  - optimized throughput and scalability in web apps 
+  - makes node.js extremely fast and efficient 
