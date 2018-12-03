@@ -28,4 +28,38 @@
 - What is a benefit of AJAX requests 
   - Allows a front end engineer to make request to a server without reloading the page 
 
+------
+# Week 4 
+
+- What data types in JS are strictly pass-by-value
+  - numbers
+  - strings
+  - booleans
+  - undefined 
+
+- which of these are valid JS primitives
+  -  number 
+  - null 
+  - symbol
+  - string 
+
+- what does the following code snippet return: "-9\n" - 5 + "1" + 0
+  - "-1410"
+
+- What does the global object refer to in JS
+  - the prototype object that all objects in JS inherit from when created 
+
+# Week 5
+
+- What are benefits of using Async/Await
+  - easy to enforce order of execution after asynch functions
+  - creates clear separation of asynch tasks 
+
+- What do the keywords async and await actually do in JS?
+  - async requires function to awlays return a promise
+  - await forces JS to wait until a promise resolves 
+
+- Promises contain two internal properties, what are they?
+  - resolve and reject
+
 - 
