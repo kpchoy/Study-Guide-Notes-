@@ -62,4 +62,6 @@
 - Promises contain two internal properties, what are they?
   - resolve and reject
 
-- 
+- How do we access the DOM in js
+  - through the "document" object 
+  
