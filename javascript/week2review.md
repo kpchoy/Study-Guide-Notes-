@@ -1,1 +1,9 @@
-
+- What is the best way to prevent ane vent form bubbling to the next parent 
+  - event.stopPropogation()
+- What are the proper keywords for error handling in JS
+  - "try...catch"
+- calling a function with the `new` keyword changes the behavior of the func, having it act as a constructor. Result of calling a function with the `new` keyword
+  - creating a new object
+  - setting new object's prototype to be the prototype of the function 
+  - executing the function with new object as context 
+  - returning the new object 
