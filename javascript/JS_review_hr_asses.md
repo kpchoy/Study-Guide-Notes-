@@ -64,4 +64,12 @@
 
 - How do we access the DOM in js
   - through the "document" object 
-  
+
+# Week 6 
+- what is partial function application?
+  - the process of creating a new function by fixing some parameters of an existing one
+
+- what are the benefits of currying?
+  - function is still callable normally
+  - creating partials for functs becomes much easier
+  - arguments can be passed in one at a time and func will wait to execute 
