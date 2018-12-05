@@ -83,6 +83,7 @@
 # pass by reference 
 - Does Javscript by by reference or value?
   - objecgts are passed by reference, primitives are passed by value 
+  - pass by value means immutable objects
 
 # length
 - what does the `length` attribute refer to on a Function in Javascript 
