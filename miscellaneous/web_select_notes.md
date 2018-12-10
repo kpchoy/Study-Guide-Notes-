@@ -24,3 +24,21 @@
 - What is the difference between a tree and a directed acyclic graph 
   - tree - one path between two nodes
   - dag - one or more parents / paths between two nodes 
+
+- Web crawler 
+  - whenever need to collect large amounts of info use web crawler 
+  - how to build basic webcrawler?
+    - start with URL pool websites we want to crawl 
+    - for each URL issue GET request to fetch page content 
+    - Parse content (HTML) and extract URLs want to crawl 
+    - add new URLs to crawler and keep crawling 
+  - crawling frequency 
+    - if you want latest news from last hour, crawler needs to crawl every hour 
+  - dedup 
+    - how to prevent data duplication across multiple servers?
+    - Bloom Filter : test if elemnt is in a set
+  - parsing 
+    - there will be many issues 
+    - need tons of robusts test to make sure you crawler works correctly 
+  - summary 
+    - 
