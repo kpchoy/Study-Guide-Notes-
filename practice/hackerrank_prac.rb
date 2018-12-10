@@ -198,3 +198,33 @@ def reverse(x)
   return 0 if result > 2**31 - 1 || result < -2**31
   result 
 end
+
+def f(n)
+  if n <= 0
+    return 0 
+  end 
+
+  n + f(n/2)
+end 
+
+# p f(4)
+
+# matrix = Array.new
+
+# matrix.push([1,2,3])
+# matrix.push([4,5,6])
+# matrix.push([7,8,9])
+
+# x = matrix[0][2] + matrix[2][1]
+
+# p x 
+
+# def reverse_list(elems) 
+#   new_list = []
+#   for i in range(elems.length) 
+#     new_list.append(elems[len(elems - i - 1)])
+#   end 
+#   new_list 
+# end 
+
+# p reverse_list([1,2,3,4,5])
