@@ -71,3 +71,33 @@ function sumOfNPrimes(n) {
 }
 
 sumOfNPrimes(4);
+
+function titleize(names, cb) {
+  let arr = names.map((name) => (cb(name)));
+  return arr;
+}
+
+function printCallback(name) {
+  console.log(`Mx. ${name} Jingleheimer Schmidt`);
+}
+
+titleize(["Mary", "Brian", "Leo"], printCallback);
+// Mx. Mary Jingleheimer Schmidt
+// Mx. Brian Jingleheimer Schmidt
+// Mx. Leo Jingleheimer Schmidt
+// undefined
+
+function Elephant(name, height, tricks) {
+  this.name = name;
+  this.height = height;
+  this.tricks = tricks;
+}
+
+function dinerBreakfast() {
+  let res = "I'd like cheesy scrambled eggs please";
+  console.log(res);
+  return function (food) {
+     res += " " + food;
+    console.log(res);
+  };
+}
