@@ -16,13 +16,6 @@ Array.prototype.myMap = function(cb) {
 
 // console.log(NUMS.myMap( num => num * num ));
 
-Array.prototype.myReduce = function(acc, el) {
-  let res = el;
-  for (let i=1; i<this.length; i++) {
-    res += acc(this[i]);
-  }
-  return res;
-};
 
 
 Array.prototype.myReduce = function (func, initialValue) {
