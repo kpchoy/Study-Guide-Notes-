@@ -55,4 +55,33 @@ function bsearch(arr, target) {
   }
 }
 
-console.log(bsearch([1,2,3,4,5,6,7,8], 7));
+// console.log(bsearch([1,2,3,4,5,6,7,8], 7));
+
+function mergesort(arr) {
+  if (arr.length <= 1) {
+    return arr;
+  }
+
+  let mid = Math.floor(arr.length / 2);
+
+  let left = mergesort(arr.slice(0, mid));
+  let right = mergesort(arr.slice(mid));
+
+  return merge(left, right);
+}
+
+function merge(left, right) {
+  let merged = [];
+
+  while (left.length > 0 && right.length > 0) {
+    if (left[0] < right[0]) {
+      merged.push(left.shift());
+    } else {
+      merged.push(right.shift());
+    }
+  }
+
+  return merged.concat(left,right);
+}
+
+console.log(mergesort([9,4,1,31,5,6,7,82,2]));
