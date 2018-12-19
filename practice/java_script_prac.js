@@ -64,3 +64,41 @@ var convert = function(s, numRows) {
   }
   return result.join('');
 };
+
+function waitingTime(tickets, p) {
+  // Write your code here
+  let place = p;
+  let count = 0;
+
+  
+  if (tickets[place] === 1 && place === 0) {
+      return 1;
+  }
+
+  while (tickets[place] > 0) {
+      console.log(tickets);
+      tickets[0]--;
+      let first = tickets.shift();
+      if (first !== 0) {
+          tickets.push(first);
+      }
+
+      console.log(tickets);
+      place--;
+      if (place < 0) {
+          place = tickets.length-1;
+      }
+      count++
+      console.log("place")
+      console.log(place)
+      console.log("tik place val")
+      console.log(tickets[place])
+      console.log("count")
+      console.log(count)
+      if (place === 0 && tickets[place] === 1) {
+          count++;
+          return count;
+      }
+  }
+  return count 
+}
