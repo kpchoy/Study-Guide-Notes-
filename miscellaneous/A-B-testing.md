@@ -1,0 +1,17 @@
+- What is A-B testing?
+  - compare two versions of a webpage to see which one performs better 
+  - the one that gives the better conversion rate wins 
+  - examples of conversions 
+    - ecommerce site want visitors buying products
+    - SaaS web apps want visitors signing up for trial and converting to paid visitors 
+    - news sites wants user to click on ads or sign up for memberships 
+  - even small changes can lead to significant increase in revenue / sales 
+  - almost anything can be tested on your website 
+  - SEO: search engine optimization 
+  - A/B testing process 
+    - study website data
+    - observe user behavior
+    - construct a hypothesis aimed at raising conversion rates
+    - test your hypothesis
+    - Analyze data and draw conclusions 
+    - report results to all concerned 
