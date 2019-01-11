@@ -11,7 +11,7 @@ let input = [
 
 function sortUrls (urls) {
   let hash_map = {};
-  let res = [];
+
 
   for (let i=1; i<urls.length; i++) {
     let url = urls[i].slice(12);
@@ -23,15 +23,17 @@ function sortUrls (urls) {
   }
 
   let keys = Object.keys(hash_map);
-  console.log(keys)
-  res.push(keys.length);
+  // console.log(keys)
+  let res = [keys.length];
 
   keys.sort(function(a,b) {
     return hash_map[b] - hash_map[a];
   });
-
-  console.log(keys);
-  console.log(res);
+ 
+  // console.log(keys);
+  // console.log(res);
+  // console.log(res.concat(keys));
+  return res.concat(keys);
 }
 
-sortUrls(input);
+console.log(sortUrls(input));
