@@ -215,7 +215,7 @@ surrgate(){}
 - Formallly define a Javascript closure 
   - combination of a function and the lexical envirnoment where it was declared 
   - allow function to access variables from an enclosing/ outer scope 
-  - closure crated whenever define a function
+  - closure created whenever define a function
 
 - Give an example of a closure?
   - function sayHi(name){
