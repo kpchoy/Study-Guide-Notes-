@@ -43,3 +43,11 @@
   - synchronous functions are blocking async funcs are not
   - sync: functions complete before next statement runs, program evaluated in order of statements 
   - asyn: execuation continues to next line after asyn function invoked, callback invoked after asyn func complete and call stack is empty.
+
+- what is the event loop, difference between callstack and task queue?
+  - monitors call stack, checks if any work to be done on task queue
+  - if call stack empty, task queue functions are dequeued and pushed onto stack 
+
+END of trivia round 4
+
+------
