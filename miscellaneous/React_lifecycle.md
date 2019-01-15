@@ -39,3 +39,15 @@
 - What does the <Provider> component do?
   - allows Consumer to subscribe to context changes 
   - accepts  `value` prop to be passed down to Consumers
+
+- phases of React component life cycle
+  - Mounting 
+    - loading of components onto the DOM
+    - methods called:
+      - constructor 
+        - set up initial state and components
+        - render 
+        - componentDidMount
+          - Where API calls should be made
+  - Updating 
+  - Unmounting
