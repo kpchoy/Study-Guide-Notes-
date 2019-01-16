@@ -48,9 +48,7 @@
   - monitors call stack, checks if any work to be done on task queue
   - if call stack empty, task queue functions are dequeued and pushed onto stack 
 
-END of trivia round 4
 
-------
 
 - explain ajax in as most detail as possible 
   - asynch javascript and xml 
@@ -68,4 +66,23 @@ END of trivia round 4
 - difference between `document load event` and `DOMContentLoaded`
   - DOMContentLoaded fired when initial HTML fully loaded and parsed
   - `window load` only fired once all the DOM resources and assets have loaded 
-  
+
+- why would you use something like a load event? does this event have disadvantages?
+  - load event fires at end of document loading process 
+  - DOMContentLoaded, DOM page finishes rendering, but not all resources loaded 
+
+- What are the three states of a promise?
+  - fulfilled, rejected, or pending 
+
+- What is the definition of a higher order function?
+  - function takes one or more functions as arguments
+  - returns a function as the result 
+  - example is `map` takes array and function as args
+
+- spread syntax vs rest 
+  - spread: unpacks an array of data 
+  - rest: takes data and stuffs into an array
+
+END of trivia round 4
+
+------
