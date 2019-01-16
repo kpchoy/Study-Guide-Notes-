@@ -36,4 +36,23 @@ function sortUrls (urls) {
   return res.concat(keys);
 }
 
-console.log(sortUrls(input));
+// console.log(sortUrls(input));
+
+function fizzBuzz() {
+  let res = [];
+  for (let i=0; i<100; i++) {
+    if (i % 3 == 0 && i % 5 == 0) {
+      res.push("fizzbuzz");
+    } else if (i % 3 == 0) {
+      res.push("fizz");
+    } else if (i % 5 ==0) {
+      res.push("buzz");
+    } else {
+      res.push(i);
+    }
+  }
+
+  return res; 
+}
+
+console.log(fizzBuzz())

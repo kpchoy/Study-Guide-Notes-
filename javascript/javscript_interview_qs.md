@@ -51,3 +51,21 @@
 END of trivia round 4
 
 ------
+
+- explain ajax in as most detail as possible 
+  - asynch javascript and xml 
+  - can send a receive data asynchronously 
+  - allows for webpages to change the content dynamically without need to reload entire page 
+
+- describe event bubbling 
+  - when event triggers on DOM elements, will attempt to handle event if listener is attached 
+  - event is bubbled up to parent element, will attemp to handle event if listener attached 
+
+- What is the difference between attribute and property?
+  - attributes are defined on html markup 
+  - properties are defnied on the DOM
+
+- difference between `document load event` and `DOMContentLoaded`
+  - DOMContentLoaded fired when initial HTML fully loaded and parsed
+  - `window load` only fired once all the DOM resources and assets have loaded 
+  
