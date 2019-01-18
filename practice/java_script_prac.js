@@ -102,3 +102,4 @@ function waitingTime(tickets, p) {
   }
   return count 
 }
+
