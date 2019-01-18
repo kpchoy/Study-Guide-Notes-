@@ -33,3 +33,12 @@
   - `<scripts>` block html parsing when they are first downloaded
   - placin scripts at bottom will allow html to be parsed and displayed to user first 
 
+- What is progresive rendering?
+  - techniques used to improve performance webpage
+  - lazy load of images, like IG feeds
+  - prioritizing visible content, includ minimum content/scripts to render the display to user ASAP
+  - Async html fragments
+
+- why would we use an `srcset` attribute in an image tag?
+  - serve different images to users based on their displays such as 4k screens 
+  - 
