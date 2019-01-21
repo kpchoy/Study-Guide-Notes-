@@ -45,4 +45,28 @@
   - `screen` 
 
 - describe css pseudo elements 
-  - 
+  - keyword added to selector that lets you style a specific part of selected element, ex :first-line, :first-letter
+
+- explain your understanding of the box model and how you would tell the browser how to render your layout
+  - css box model rectangular boxes generated for elements in the DOM
+  - responsible for 
+    - how much space a block element takes up
+    - whether or not borders or margins overlap 
+    - a box's dimensions 
+  - box model rules
+    - calculated with width, height, padding, border, margin
+
+- What does {box-sizing: border-box} do? What are its advantages?
+  - changes how the width and height of element is calculated, border and padding are now included in the calculation 
+
+- Display : Block vs Inline vs Inline-block
+  - block: has some white space above and below it, does not tolerate any elements next to it
+  - inline: no line break before or after, tolerates elements next to it
+  - inline-block: placed as an inline element, but behaves as a block element 
+
+- What is the difference between position relative, fixed, absolute, static
+  - relative: positioned relative to its normal position
+  - static: the default position, positioned according to normal flow of the page
+  - fixed: positioned relative to the view port, always stays in the same place even if page is scrolled
+  - absolute: positioned relative closest to its nearest ancestor 
+  
