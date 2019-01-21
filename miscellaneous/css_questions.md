@@ -27,4 +27,22 @@
 - How would you approach fixing browser-specific styling issues?
   - use reset css
   - use libraries like bootstrap that handle styling issues for you
-  
+
+- what are different ways to visually hide content?
+  - visbility: hidden 
+  - width: 0, height: 0 
+
+- are you familiar with SVG styling, what does it stand for?
+  - scalable vector styling 
+  - several ways to color shapes, inline css, external css
+  - basic coloring using `fill` and `stroke`
+
+- can you give an example of @media property other than screen?
+  - 4 types of media properties?
+  - `all` for all screens
+  - `print` for printers 
+  - `speech` for screenreaders 
+  - `screen` 
+
+- describe css pseudo elements 
+  - 
