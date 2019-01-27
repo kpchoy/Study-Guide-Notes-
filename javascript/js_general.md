@@ -228,3 +228,13 @@ surrgate(){}
 
 - What is data encapsulaiton? 
   - some data should not be directly exposed 
+
+- What is a Set and what is an Array in Javascript
+  - array 
+    - block of data allocated in consecutive memory 
+    - "indexed collection"- collections of data are ordered with index val
+  - set 
+    - abstract data type contains only distinct elements
+    - "keyed collection"- elements iterable in order of insertion
+    - var emptySet = new Set();
+    
