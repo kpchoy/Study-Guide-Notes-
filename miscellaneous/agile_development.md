@@ -1,0 +1,13 @@
+- what is agile development
+  - frameworks for product development 
+  - approach to software development 
+  - collaborative effort and teams
+- development practices
+  - pair programming, TDD, standups, planning sessions, sprints 
+- focuses on how people do the work, and how they work together 
+- focus on practices help with collaboration, organization of work, 
+- SCRUM
+  - framework of agile development 
+  - teams 3-9
+  - break work into "sprints" work completed within usually 2 weeks
+  - track progress daily 15 min standup meetings 
