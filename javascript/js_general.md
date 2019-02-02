@@ -205,9 +205,6 @@ surrgate(){}
 - can take function as argument
 
 # closures 
-- give an example of where you would use a closure
-  - click handlers on a webpage 
-  - you dont know when a user will click certain features on a page
 
 - What are the benefits of a Javascript Closre?
   - allows data encapsulation, some data should not be directly exposed 
