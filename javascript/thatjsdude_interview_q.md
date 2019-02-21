@@ -53,7 +53,56 @@ function addClass(selector, className) {
   - check whether passed parent is direct parent of the child. if not keep movingup to the root of the tree
 
 - What is best way to create a DOM element? set innerHTML or use appendChild?
-  -appendChild: you create a new element, can pass child to parent, child will be appended to parent. Makes page faster 
+  - appendChild: you create a new element, can pass child to parent, child will be appended to parent. Makes page faster 
 
   - wrong innerHTML: can be slow while parsing string, browser has to deal with string i fyou have bad html
+
+
+- What is createDocumentFragment and why you might use it?
+  - is not part of the DOM tree, changes made to fragment do not affect DOM
+  - assemble DOM subtree within it, append fragment to DOM, all nodes appended at once, only one reflow and render triggered, instead of each individual re render 
+
+  - helpful when manipulating part of the DOM multiple times
+  - can avoid expensive reflow by using documentFragment
+  
+
+- What is reflow? What causes reflow? How could you reduce reflow?
+  - reflow: change size or pos element on page -> all elements after it have to change pos according to changes u made
+  - reflow is bad b/c expensive, performance hit on smaller devices, might also change whole layout of page
+
+- What is repaint and when does this happen?
+  - repaint happens when change look of element w/o changing size and shape
+  - occurs: visibility hidden, chage background, change text
+
+- How could you make sure to run some JS when the DOM isready?
+  1. place script in last tag of html body element
+  2. place code inside DOMContentLoaded handler 
+
+- What is event bubble? How does event flows in DOM?
+  - when click on child event will bubble up and parent(s) event will also fire
+
+
+- How would you destroy multiple list items with one click handler?
+  - attach event handler to "ul" tag
+
+```javascript
+document.getElementById('ul').addEventListener('click', function(e) {
+  var elm = e.target.parentNode;
+  elm.parentNode.removeChild(elm);
+  e.preventDefault();
+})
+```
+
+<!-- last left off -->
+
+
+- create a button that is destroyed by clicking in it but two new buttons are created in its place?
+
+- How could you capture all clikcs in a page?
+  - document.addeventListenter('click', myfunc)
+  - myfunc captures all clicks and stores in array 
+
+- How can you get all the texts in a webpage?
+
+- What is defer and async keyword does in a script tag?
 
