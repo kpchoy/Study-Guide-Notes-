@@ -137,6 +137,9 @@ document.querySelector('body').addEventListener('click', function(e) {
     - event.stopPropagation()
   3. Can you remove an event handler from element
     - target.removeEventListener('click', handler)
-  4. How could you run event handler in the capturing phase?
-  
+  4. How could you prevent multiple event handler to be fired for an event?
+    - event.stopImmediatePropagation()
+  5. Node vs Element?
+    - node any DOM object
+    - element is specific type of node (text nodes, comment nodes, document nodes)
 
