@@ -93,16 +93,50 @@ document.getElementById('ul').addEventListener('click', function(e) {
 })
 ```
 
-<!-- last left off -->
-
-
 - create a button that is destroyed by clicking in it but two new buttons are created in its place?
+```javascript
+<div id='doubleHolder'>
+  <button class='double'>click</button>
+<div>
+
+document.getElementById('doubleHolder').addEventListener(click, doubler)
+
+function doubler(e) {
+  if(e.target.classList.contains('double')){
+
+    let btn1 = documentCreateElement('button');
+    btn1.innerHtml = 'double1';
+
+    let btn2 = documentCreateElement('button');
+    btn2.innherHtml = 'double2';
+
+    this.appendChild(btn1);
+    this.appendChild(btn2);
+    this.removeChild(e.target);
+  }
+}
+```
 
 - How could you capture all clikcs in a page?
-  - document.addeventListenter('click', myfunc)
-  - myfunc captures all clicks and stores in array 
-
+```javascript
+document.querySelector('body').addEventListener('click', function(e) {
+  console.log(e.target)
+})
+```
 - How can you get all the texts in a webpage?
+  - document.body.innerText
 
 - What is defer and async keyword does in a script tag?
+  - defer: keyword defer execution of script until DOM is available
+  - async: set execution of script asycnhronously 
+
+- Rapid fire questions 
+  1. How prevent click on anchor tag from going to link?
+    - preventDefault()
+  2. How could you stop further propagation
+    - event.stopPropagation()
+  3. Can you remove an event handler from element
+    - target.removeEventListener('click', handler)
+  4. How could you run event handler in the capturing phase?
+  
 
