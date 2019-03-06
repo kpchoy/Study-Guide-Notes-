@@ -1,0 +1,10 @@
+- What are dynamically vs statically typed languages?
+  - static
+    - type checking at compile time, instead of run time
+    - type of variable known at compile time, program must specify variable type
+    - Java, C++
+  - dynamic
+    - type checking at run time, instead of compile time
+    - type is associated with run time values, and not named variables
+    - do not have to declare integer, boolean, symbol
+    - Javascript Ruby

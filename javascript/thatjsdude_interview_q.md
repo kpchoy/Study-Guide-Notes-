@@ -1,4 +1,4 @@
-- is there nay difference between window and document?
+- is there any difference between window and document?
   - window is the global object, and everything runs under it
   - document is under the window, represents the DOM
 
@@ -143,3 +143,7 @@ document.querySelector('body').addEventListener('click', function(e) {
     - node any DOM object
     - element is specific type of node (text nodes, comment nodes, document nodes)
 
+- Difference between (script) (script async) (script defered)
+  - script - html parsing is blocked
+  - script async - script fetched in parallel to HTML and execute as soon as its available
+  - script defered - script fetched in parallel to HTML, executes AFTER page has finished parsing 
